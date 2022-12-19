@@ -5,7 +5,7 @@ const fetchAdvice = async () => {
 
     console.log(data);
 
-    document.getElementById("title").innerHTML = `'Advice # ${data.slip.id}`;
+    document.getElementById("title").innerHTML = `Advice # ${data.slip.id}`;
     document.getElementById("text").innerHTML = `"${data.slip.advice}"`;
 }
 
